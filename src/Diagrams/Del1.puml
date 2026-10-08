@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+
+class Building {
+
+}
+
+class Room {
+
+}
+
+class Lamp {
+
+}
+
+class Window {
+
+}
+
+Building *-- Room : HAS-A
+Room *-- Lamp : HAS-A
+Room *-- Window : HAS-A
+
+@enduml
